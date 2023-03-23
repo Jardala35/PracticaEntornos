@@ -9,10 +9,12 @@ class CuentaBancaria
 
 	//Metodos
 	
-	public CuentaBancaria(String numCuenta,String nomTitular,double saldo)
+	// Modificamos el constructor para incluir su nuevo atributo
+	public CuentaBancaria(String numCuenta,String nomTitular,double saldo, double interes)
 	{
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
+		this.tipoIntereses = interes;
 		ingreso(saldo);
 			}
 	
