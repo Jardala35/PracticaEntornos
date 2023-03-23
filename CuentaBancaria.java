@@ -4,6 +4,7 @@ class TestCuentaBancaria
 	{
 		CuentaBancaria cuenta = new CuentaBancaria("1234521","Director Banco",100,0);
 	CuentaBancaria c_secundaria = new CuentaBancaria("0123456789","Nombre Apellidos", 1000,5);  
+	CuentaBancaria c_oculta = new CunetaBancaria("0123456789", "Nombre Apellidos", 1000, 5.8);
 		cuenta.reintegro(50);
 		cuenta.ingreso(100);
 		System.out.println("Saldo: " + cuenta.getSaldo());
